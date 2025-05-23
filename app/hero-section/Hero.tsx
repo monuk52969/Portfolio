@@ -97,13 +97,16 @@ const Hero = () => {
             variants={imageAnimation}
           >
             <Image
-              src={profile}
-              priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="Monu kumar"
-              data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale mt-10 hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
-            />
+  src="/img.jpg"
+  alt="Victor's headshot"
+  width={245} // highest value from Tailwind widths
+  height={245} // match aspect ratio
+  priority
+  data-blobity-tooltip="Monu kumar"
+  data-blobity-invert="false"
+  className="w-[150px] rounded-[16px] grayscale mt-10 hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+/>
+
           </motion.div>
         </div>
       </div>
