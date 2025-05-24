@@ -23,6 +23,11 @@ export const monaSans = localFont({
       style: "italic",
     },
     {
+      path: "./Mona-Sans-ExtraBoldNarrow.woff2",
+      weight: "800",
+      style: "normal",
+    },
+    {
       path: "./Mona-Sans-LightNarrow.woff2",
       weight: "300",
       style: "normal",
@@ -43,6 +48,11 @@ export const monaSans = localFont({
       style: "italic",
     },
     {
+      path: "./Mona-Sans-RegularNarrowItalic.woff2",
+      weight: "400",
+      style: "italic",
+    },
+    {
       path: "./Mona-Sans-SemiBoldNarrow.woff2",
       weight: "600",
       style: "normal",
@@ -53,19 +63,11 @@ export const monaSans = localFont({
       style: "italic",
     },
     {
-      path: "./Mona-Sans-ExtraBoldNarrow.woff2",
-      weight: "800",
-      style: "normal",
-    },
-    {
       path: "./Mona-Sans-UltraLightNarrow.woff2",
       weight: "200",
       style: "normal",
     },
-    {
-      path: "./Mona-Sans-RegularNarrowItalic.woff2",
-      weight: "400",
-      style: "italic",
-    },
   ],
+  display: "swap",
+  preload: true,
 });
